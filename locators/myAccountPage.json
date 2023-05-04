@@ -1,0 +1,4 @@
+{
+  "myDataOption": "//a[@class='category']",
+  "mailAndPasswordOption": "//button[@id='loginWithUserAndPasswordBtn']"
+}

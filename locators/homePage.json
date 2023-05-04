@@ -1,0 +1,8 @@
+{
+  "myAccountOption": "[@data-test-id='my-account']",
+  "searchInput": "//input[@placeholder='Buscar productos']",
+  "submitSearchBtn_group": "group",
+  "submitSearchBtn_button": "button",
+  "closeModalButton": "[data-test-id='close-modal-button']",
+  "resultTitleText": "[data-test-id='result-title']"
+}
