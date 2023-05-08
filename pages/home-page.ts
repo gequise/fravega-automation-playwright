@@ -33,7 +33,7 @@ export class HomePage {
     await this.page.waitForLoadState("domcontentloaded");
   }
 
-  async getTitle() {
+  async getRecordsRequest() {
     await this.page.route(
       "https://tracker-server-vryw2ld45a-uk.a.run.app/records",
       (route) => {
@@ -44,7 +44,9 @@ export class HomePage {
         route.continue();
       }
     );
+  }
 
+  async getTitle() {
     return await this.resultTitleTxt.textContent();
   }
 }

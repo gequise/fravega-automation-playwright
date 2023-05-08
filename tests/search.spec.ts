@@ -12,7 +12,8 @@ test.describe("Search tests", () => {
 
   test("1. search.", async () => {
     await homePage.fillSearchInp();
-    const title = await homePage.getTitle();
-    console.log("ASSERT", title);
+    await homePage.getRecordsRequest()
+    await homePage.getTitle();
+    // console.log("ASSERT", title);
   });
 });
